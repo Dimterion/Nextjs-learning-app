@@ -1,0 +1,15 @@
+.a {
+  background-color: #0077b6;
+  color: #90e0ef;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.a:hover {
+  color: #03045e;
+}

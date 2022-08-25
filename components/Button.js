@@ -1,13 +1,13 @@
-import styles from '../styles/Button.module.css'
+import styles from "../styles/Button.module.css";
 
 export function Button() {
   return (
     <button
-      type='button'
+      type="button"
       className={styles.error}
       onClick={() => console.log("Hello.")}
     >
-      Say hello to you little console.log.
+      Say hello to your little console.log.
     </button>
-  )
+  );
 }

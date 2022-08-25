@@ -1,0 +1,38 @@
+.headerContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0077b6;
+  color: #90e0ef;
+  text-align: center;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+}
+
+.li {
+  margin: 0 15px;
+  color: #90e0ef;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border: 1px solid #90e0ef;
+  padding: 5px;
+}
+
+.li:hover {
+  background-color: #90e0ef;
+  color: #0077b6;
+}
+
+@media (max-width: 768px) {
+  .headerContainer {
+    justify-content: center;
+  }
+
+  .ul {
+    padding: 0;
+  }
+}

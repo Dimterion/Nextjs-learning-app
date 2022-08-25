@@ -1,7 +1,11 @@
+import styles from "../styles/Footer.module.css";
+
 function Footer() {
   return (
-    <div>This is my proud little Footer.</div>
-  )
+    <a className={styles.a} href="https://twitter.com/Dimterion">
+      Come say Hi
+    </a>
+  );
 }
 
-export default Footer
+export default Footer;
