@@ -1,5 +1,12 @@
 import styles from "../styles/About.module.css";
 
-export default function Home() {
-  return <div className={styles.container}>This is the About page.</div>;
+export default function About() {
+  return (
+    <section className={styles.section}>
+      <p>
+        The repo can be found{" "}
+        <a className={styles.a} href="https://github.com/Dimterion/Nextjs-learning-app">here</a>
+      </p>
+    </section>
+  );
 }

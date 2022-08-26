@@ -1,4 +1,6 @@
-.error {
+.btn {
   color: white;
   background-color: red;
+  cursor: pointer;
 }
+

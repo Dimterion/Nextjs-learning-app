@@ -2,9 +2,11 @@ import styles from "../styles/Footer.module.css";
 
 function Footer() {
   return (
-    <a className={styles.a} href="https://twitter.com/Dimterion">
-      Come say Hi
-    </a>
+    <footer>
+      <a className={styles.a} href="https://twitter.com/Dimterion">
+        Come say Hi
+      </a>
+    </footer>
   );
 }
 

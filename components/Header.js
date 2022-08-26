@@ -5,7 +5,7 @@ import styles from "../styles/Header.module.css";
 
 function Header() {
   return (
-    <div className={styles.headerContainer}>
+    <header className={styles.header}>
       <Image src={profileImg} alt="Profile image" width={100} height={100} />
       <h1>This is a simple app created with Next.js</h1>
       <ul className={styles.ul}>
@@ -20,7 +20,7 @@ function Header() {
           </Link>
         </li>
       </ul>
-    </div>
+    </header>
   );
 }
 
