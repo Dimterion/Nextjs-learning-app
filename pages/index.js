@@ -19,7 +19,7 @@ export default function Home({ posts }) {
           The app is created with <i>create-next-app</i>
         </li>
         <li>
-          It is also debployed on{" "}
+          It is also deployed on{" "}
           <a className={styles.a} href="https://vercel.com/">
             Vercel
           </a>
@@ -33,7 +33,7 @@ export default function Home({ posts }) {
           was made as a separate component and only shows an alert.
         </li>
         <li>
-          The app consists of two pages (Home and About) and three comonents
+          The app consists of two pages (Home and About) and three components
           (Header, Footer and Button)
         </li>
         <li>
