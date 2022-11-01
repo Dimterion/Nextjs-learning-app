@@ -1,6 +1,9 @@
+import styles from "../styles/Crypto.module.css";
+
 export default function BitcoinPrice({ data }) {
   return (
-    <>
+    <section className={styles.section}>
+      <h2>Current prices for Bitcoin and Ethereum in USD and EUR</h2>
       <div>
         Current Bitcoin price:{" "}
         {JSON.stringify(data[0].market_data.current_price.usd)} USD
@@ -17,7 +20,7 @@ export default function BitcoinPrice({ data }) {
         Current Ethereum price:{" "}
         {JSON.stringify(data[1].market_data.current_price.eur)} EUR
       </div>
-    </>
+    </section>
   );
 }
 
