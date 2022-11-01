@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "../components/Button";
 import styles from "../styles/Home.module.css";
 
@@ -37,7 +38,11 @@ export default function Home({ posts }) {
           (Header, Footer and Button)
         </li>
         <li>
-          The styling is made with the regular CSS and (except for a few global styles) set separately for each page and component
+          The styling is made with the regular CSS and (except for a few global
+          styles) set separately for each page and component
+        </li>
+        <li>
+          <Link href="/crypto">Crypto prices</Link>
         </li>
       </ul>
     </section>
