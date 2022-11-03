@@ -42,7 +42,9 @@ export default function Home({ posts }) {
           styles) set separately for each page and component
         </li>
         <li>
-          <Link href="/crypto">Crypto prices</Link>
+          <Link href="/crypto">
+            <a className={styles.li}>Crypto prices</a>
+          </Link>
         </li>
       </ul>
     </section>

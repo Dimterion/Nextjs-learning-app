@@ -4,21 +4,23 @@ export default function BitcoinPrice({ data }) {
   return (
     <section className={styles.section}>
       <h2>Current prices for Bitcoin and Ethereum in USD and EUR</h2>
-      <div>
-        Current Bitcoin price:{" "}
-        {JSON.stringify(data[0].market_data.current_price.usd)} USD
-      </div>
-      <div>
-        Current Bitcoin price:{" "}
-        {JSON.stringify(data[0].market_data.current_price.eur)} EUR
-      </div>
-      <div>
-        Current Ethereum price:{" "}
-        {JSON.stringify(data[1].market_data.current_price.usd)} USD
-      </div>
-      <div>
-        Current Ethereum price:{" "}
-        {JSON.stringify(data[1].market_data.current_price.eur)} EUR
+      <div className={styles.currencyContainer}>
+        <div>
+          Current Bitcoin price:{" "}
+          {JSON.stringify(data[0].market_data.current_price.usd)} USD
+        </div>
+        <div>
+          Current Bitcoin price:{" "}
+          {JSON.stringify(data[0].market_data.current_price.eur)} EUR
+        </div>
+        <div>
+          Current Ethereum price:{" "}
+          {JSON.stringify(data[1].market_data.current_price.usd)} USD
+        </div>
+        <div>
+          Current Ethereum price:{" "}
+          {JSON.stringify(data[1].market_data.current_price.eur)} EUR
+        </div>
       </div>
     </section>
   );
