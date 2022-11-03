@@ -1,8 +1,12 @@
 .section {
-  margin: 5vh 10vw;
+  margin: 10vh 10vw;
   padding: 20px;
   border: 5px solid #caf0f8;
   border-radius: 10px;
+  background-image: linear-gradient(#0077b6, #e52e71);
+  font-size: 1.25rem;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .currencyContainer {

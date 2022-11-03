@@ -6,20 +6,32 @@ export default function BitcoinPrice({ data }) {
       <h2>Current prices for Bitcoin and Ethereum in USD and EUR</h2>
       <div className={styles.currencyContainer}>
         <div>
-          Current Bitcoin price:{" "}
-          {JSON.stringify(data[0].market_data.current_price.usd)} USD
+          Bitcoin:{" "}
+          <p>{JSON.stringify(data[0].market_data.current_price.usd)}</p>
+          <b>
+            <i>USD</i>
+          </b>
         </div>
         <div>
-          Current Bitcoin price:{" "}
-          {JSON.stringify(data[0].market_data.current_price.eur)} EUR
+          Bitcoin:{" "}
+          <p>{JSON.stringify(data[0].market_data.current_price.eur)}</p>
+          <b>
+            <i>EUR</i>
+          </b>
         </div>
         <div>
-          Current Ethereum price:{" "}
-          {JSON.stringify(data[1].market_data.current_price.usd)} USD
+          Ethereum:{" "}
+          <p>{JSON.stringify(data[1].market_data.current_price.usd)}</p>
+          <b>
+            <i>USD</i>
+          </b>
         </div>
         <div>
-          Current Ethereum price:{" "}
-          {JSON.stringify(data[1].market_data.current_price.eur)} EUR
+          Ethereum:{" "}
+          <p>{JSON.stringify(data[1].market_data.current_price.eur)}</p>
+          <b>
+            <i>EUR</i>
+          </b>
         </div>
       </div>
     </section>
@@ -34,5 +46,6 @@ export async function getStaticProps() {
     props: {
       data,
     },
+    revalidate: 5,
   };
 }
