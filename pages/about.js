@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section className={styles.section}>
       <p>
-        For now I'm using{" "}
+        For now I am using{" "}
         <a
           className={styles.a}
           target="_blank"
