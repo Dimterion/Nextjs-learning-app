@@ -1,11 +1,16 @@
 .section {
-  margin: 10px;
+  margin: 5vh 1vw;
   font-size: 1.5rem;
+}
+
+.ul li {
+  margin: 10px 0;
 }
 
 .a {
   color: #90e0ef;
   text-decoration: none;
+  font-style: italic;
 }
 
 .a:hover {

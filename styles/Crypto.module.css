@@ -6,11 +6,25 @@
   background-image: linear-gradient(#0077b6, #e52e71);
   font-size: 1.25rem;
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.section:hover {
+  font-size: 1.5rem;
+  box-shadow: 5px 5px 5px rgb(150, 150, 150);
+  transition: 0.5s;
 }
 
 .currencyContainer {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.currencyContainer div {
+  border: 1px solid #caf0f8;
+  border-radius: 5px;
+  padding: 15px 0;
 }

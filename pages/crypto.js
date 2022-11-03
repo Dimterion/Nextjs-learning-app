@@ -3,7 +3,7 @@ import styles from "../styles/Crypto.module.css";
 export default function BitcoinPrice({ data }) {
   return (
     <section className={styles.section}>
-      <h2>Current prices for Bitcoin and Ethereum in USD and EUR</h2>
+      <h2>Bitcoin & Ethereum prices in USD & EUR</h2>
       <div className={styles.currencyContainer}>
         <div>
           Bitcoin:{" "}

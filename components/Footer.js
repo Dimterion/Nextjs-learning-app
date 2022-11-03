@@ -2,9 +2,14 @@ import styles from "../styles/Footer.module.css";
 
 function Footer() {
   return (
-    <footer>
-      <a className={styles.a} href="https://twitter.com/Dimterion">
-        Come say Hi
+    <footer className={styles.footer}>
+      <a
+        className={styles.a}
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://twitter.com/Dimterion"
+      >
+        Come say hi
       </a>
     </footer>
   );

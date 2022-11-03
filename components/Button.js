@@ -1,6 +1,6 @@
 import styles from "../styles/Button.module.css";
 
-export function Button({btnText, alertText}) {
+export function Button({ btnText, alertText }) {
   return (
     <button
       type="button"

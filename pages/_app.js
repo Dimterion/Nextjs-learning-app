@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Next.js App</title>
         <meta property="title" content="Next.js App" key="title" />
+        <meta name="description" content="Dimterion's app made with Next.js" />
       </Head>
       <Layout>
         <Component {...pageProps} />

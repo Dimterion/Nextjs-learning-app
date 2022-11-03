@@ -1,5 +1,15 @@
 .btn {
-  color: white;
+  color: #90e0ef;
   background-color: red;
   cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.25rem;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  box-shadow: 2px 2px 2px #90e0ef;
+  transition: 0.5s;
 }

@@ -1,6 +1,8 @@
 .section {
-  margin: 10px;
   font-size: 1.5rem;
+  text-align: center;
+  width: 80vw;
+  margin: 10vh auto;
 }
 
 .a {
