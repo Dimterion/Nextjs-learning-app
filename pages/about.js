@@ -24,6 +24,17 @@ export default function About() {
         >
           here
         </a>
+        .<br></br>
+        <br></br>
+        You can also check my Medium stories if you want.{" "}
+        <a
+          className={styles.a}
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://medium.com/@dimterion"
+        >
+          Here is a link
+        </a>
         .
       </p>
     </section>
