@@ -6,29 +6,25 @@ export default function BitcoinPrice({ data }) {
       <h2>Bitcoin & Ethereum prices in USD & EUR</h2>
       <div className={styles.currencyContainer}>
         <div>
-          Bitcoin:{" "}
-          <p>{JSON.stringify(data[0].market_data.current_price.usd)}</p>
+          Bitcoin: <p>{data[0].market_data.current_price.usd}</p>
           <b>
             <i>USD</i>
           </b>
         </div>
         <div>
-          Bitcoin:{" "}
-          <p>{JSON.stringify(data[0].market_data.current_price.eur)}</p>
+          Bitcoin: <p>{data[0].market_data.current_price.eur}</p>
           <b>
             <i>EUR</i>
           </b>
         </div>
         <div>
-          Ethereum:{" "}
-          <p>{JSON.stringify(data[1].market_data.current_price.usd)}</p>
+          Ethereum: <p>{data[1].market_data.current_price.usd}</p>
           <b>
             <i>USD</i>
           </b>
         </div>
         <div>
-          Ethereum:{" "}
-          <p>{JSON.stringify(data[1].market_data.current_price.eur)}</p>
+          Ethereum: <p>{data[1].market_data.current_price.eur}</p>
           <b>
             <i>EUR</i>
           </b>
